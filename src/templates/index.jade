@@ -1,0 +1,56 @@
+
+doctype html
+html(lang="en")
+  head
+    title Erika Harvey
+    link(href='http://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css',type = "text/css", rel="stylesheet" )
+    script(type='text/javascript').
+    header
+      .card 
+        .jumbotron
+      
+          h1.display-2 Erika Harvey
+
+          .navbar.navbar-default.navbar-static-top(role="navigation")
+            
+            ul.nav.navbar-nav
+              ul
+                      li
+                        a(href="/blog") Blog
+                      li
+                        a.page-scroll(href='#about') About
+    body
+      
+      .container#about
+        .card
+          h3.display-5 What's Makes Erika Jump Out Of Bed? 
+   
+
+            
+            
+              
+                
+                  
+         
+       
+         
+    body
+      .container
+        .card 
+          .row
+            .col-md-4
+              ol
+                each val, index in ['Name: Harvey, Erika','Name: Diaz, John','Name: Harvey, Alexis']
+                  li=  val
+      .container
+        .card
+          .legend Submit A Blog Post 
+            form(id="", method="", action="")
+              form(id="",method="",action="")
+                label First Name
+                  input(type="text",id="name",value="")
+    footer
+       .container
+        .row
+          .col-md-4
+            .footer designed by Erika Harvey 

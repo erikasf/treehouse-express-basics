@@ -1,14 +1,24 @@
-{  
-   "I like to Design Things For People!":{  
-      "title":"I Like To Design Things For People",
-      "description":"So many things in the world were designed with little"
-   },
-   "User Research Is Cool":{  
-      "title":"User Research Is Cool",
-      "description":"User research is the basis for everything we get paid to do "
-   },
-   "Beginning Of The Design Process":{  
-      "title":"The Beginning of the Design Process Is My Favorite",
-      "description":"The beginning of the design process is my favorite stage."
-   }
-}
+
+{
+   "I like to design things for people":{
+    
+    "title": "I Like to design things for people",
+    "author": "Erika Harvey",
+    "description": "So many things in the world were designed with litte" ,
+    "content": "So many things in the world today, were designed with little to no thought about those that actually use them"
+},
+    "User Research Is Cool ":{
+      
+      "title": "User Research Is Cool",
+       "author": "Erika Harvey",
+        "description": "User research is the basis for everythig we get paid to do",
+        "content":" User research is the basis for everythig we get paid to do. Without first thinking about the users experience and their feelings towards our product, we will not know how to design something that keeps them coming back for more."
+},
+      "Beginning Of My Design Process": {
+       
+        "title": "Beginning Of My Design Process",
+         "author": "Erika Harvey",
+        "description": " The beginning of my design process is my favorite " ,  
+        "content" : "The beginning of my design process is my favorite task. It is there that i get to know my users up close and personal. I get to see how they do things and figure out why they do them like that"
+      }
+    }

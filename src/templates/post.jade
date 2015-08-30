@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    id #{post.title}
+    
+    link(href='http://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css',type = "text/css", rel="stylesheet" )
+  body 
+    .container
+      .card
+        section.post 
+          .container 
+          .text-right
+            a(href="").text-faded view all 
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h1.display2 #{post.title}
+                h1.lead #{post.author}
+                 p.text-faded
+                  | #{post.description}
+
+            
+        
+          .card
+              |#{post.content}
+            
+             
